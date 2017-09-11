@@ -1,7 +1,7 @@
 <?php
 	/**
 	* Upload version 1.0
-	* Created by Husain Saify http://hackerkernel.com
+	* Created by HackerRahul http://HackerRahul.com
 	* Date 24 august 2015
 	*/
 	class Upload{

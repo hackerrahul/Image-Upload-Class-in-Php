@@ -39,7 +39,8 @@
 						// check size
 						if ($this->_upload['size'] < $this->_size) {
 							// upload the file
-							$filename = $this->_upload['name'];
+							$strtotime = strtotime("now");
+							$filename = $strtotime.'_'.$this->_upload['name'];
 							$tmpname = $this->_upload['tmp_name'];
 							if (move_uploaded_file($tmpname, $this->_dir.$filename)) {
 								$this->_result['type'] = "success";
